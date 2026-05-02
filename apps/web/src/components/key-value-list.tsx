@@ -1,5 +1,10 @@
 import { Timestamp } from "firebase/firestore";
-import { Table, TableBody, TableCell, TableRow } from "~/components/ui/table";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableRow,
+} from "@repo/ui/components/table";
 
 type FsValue = string | number | boolean | null | FsTimestamp;
 

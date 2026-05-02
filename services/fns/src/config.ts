@@ -1,3 +1,3 @@
-export const region = "europe-west3";
+export const region = "us-central1";
 
 export const counterFlagThreshold = 100;

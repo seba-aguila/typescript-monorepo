@@ -29,8 +29,8 @@ app.use("/v1", v1);
 /**
  * Exposed endpoints
  *
- * Emulator: http://localhost:5001/your-project-name/europe-west3/api/v1 Live:
- * https://europe-west3-your-project-name.cloudfunctions.net/api/v1
+ * Emulator: http://localhost:5001/your-project-name/us-central1/api/v1 Live:
+ * https://us-central1-your-project-name.cloudfunctions.net/api/v1
  */
 
 /** Exports the function as "api". This will result in a url prefix /api, */

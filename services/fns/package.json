@@ -8,6 +8,7 @@
     ".env.*"
   ],
   "type": "module",
+  "main": "./dist/index.mjs",
   "exports": {
     ".": "./dist/index.mjs",
     "./package.json": "./package.json"

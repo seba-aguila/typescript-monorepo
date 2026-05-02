@@ -3,6 +3,7 @@
   "references": [
     { "path": "packages/common" },
     { "path": "packages/core" },
+    { "path": "packages/ui" },
     { "path": "services/api" },
     { "path": "services/fns" },
     { "path": "apps/web" }

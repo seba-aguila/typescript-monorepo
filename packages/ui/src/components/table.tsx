@@ -1,6 +1,5 @@
+import { cn } from "@repo/ui/lib/utils";
 import * as React from "react";
-
-import { cn } from "~/lib/utils";
 
 const Table = React.forwardRef<
   HTMLTableElement,
@@ -73,7 +72,7 @@ const TableHead = React.forwardRef<
   <th
     ref={ref}
     className={cn(
-      "h-10 px-2 text-left align-middle font-medium text-zinc-500 [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px] dark:text-zinc-400",
+      "h-10 px-2 text-left align-middle font-medium text-zinc-500 [&:has([role=checkbox])]:pr-0 *:[[role=checkbox]]:translate-y-0.5 dark:text-zinc-400",
       className,
     )}
     {...props}
@@ -88,7 +87,7 @@ const TableCell = React.forwardRef<
   <td
     ref={ref}
     className={cn(
-      "p-2 align-middle [&:has([role=checkbox])]:pr-0 [&>[role=checkbox]]:translate-y-[2px]",
+      "p-2 align-middle [&:has([role=checkbox])]:pr-0 *:[[role=checkbox]]:translate-y-0.5",
       className,
     )}
     {...props}
